@@ -1,0 +1,26 @@
+# keep only one example in /out dir and keeping /out/debug dir
+/out/*
+!/out/example*
+!/out/debug
+/out/debug/*
+!/out/debug/.gitkeep
+
+# keep only default end example
+#/data/*
+!/data/default_*
+!/data/example.*
+
+# ignore eclpise specific dirs and files for GLOCAL
+/bin
+/.settings
+
+# ignore eclpise specific dirs and files for MEASURES
+/MEASURES/bin
+/MEASURES/.settings
+
+# ignore eclpise specific dirs and files for LMATFU
+/LMATFU/bin
+/LMATFU/.settings
+
+# ignore log files
+*.log

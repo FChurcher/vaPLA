@@ -1,0 +1,15 @@
+# further Nucleotide Codes
+# sybol'\t'nuc1' 'nuc2' 'nuc3 ('\t', ' ' and '\n' seperated)
+# R	A G stands for "R stands for (A or G)"
+
+R	A G			# Purine
+Y	C T			# Pyrimidine
+N	A G C T		# Any
+W	A T			# Weak
+S	G C			# Strong
+M	A C			# Amino
+K	G T			# Keto
+B	G C T		# NOT A
+H	A C T		# NOT G
+D	A G T		# NOT C
+V	A G C		# NOT T
